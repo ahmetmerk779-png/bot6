@@ -1,17 +1,25 @@
 {
   "name": "minecraft-bot-pro",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "Otonom Minecraft Bot ve Web Paneli",
+  "main": "web_panel.js",
   "dependencies": {
+    "express": "^4.19.2",
     "mineflayer": "^4.23.0",
     "mineflayer-pvp": "^4.0.0",
     "mineflayer-pathfinder": "^2.4.5",
     "prismarine-viewer": "^1.26.0",
     "groq-sdk": "^0.7.0",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5"
   },
   "scripts": {
-    "start": "node server.js"
-  }
+    "start": "node web_panel.js"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC"
 }
