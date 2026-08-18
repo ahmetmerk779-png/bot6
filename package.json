@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "^4.19.2",
     "mineflayer": "^4.23.0",
-    "mineflayer-pvp": "^1.3.3",
+    "mineflayer-pvp": "git+https://github.com/PrismarineJS/mineflayer-pvp.git",
     "mineflayer-pathfinder": "^2.4.5",
     "prismarine-viewer": "^1.26.0",
     "groq-sdk": "^0.7.0",
